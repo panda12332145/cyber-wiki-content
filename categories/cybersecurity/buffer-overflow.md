@@ -2,6 +2,8 @@
 
 ## O que é Buffer Overflow?
 
+<span style="color:purple">ROXU roxo</span>
+
 Buffer Overflow é uma vulnerabilidade clássica de corrupção de memória que acontece quando um programa escreve mais dados em um buffer do que ele consegue armazenar.
 
 Um *buffer* é basicamente uma região da memória reservada para armazenar dados temporariamente, como:
@@ -700,6 +702,14 @@ https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf
 Buffer Overflow não é apenas uma falha simples de programação.
 
 Ele representa um problema estrutural relacionado ao gerenciamento manual de memória e ao controle inseguro de entradas.
+
+---
+difficulty: advanced
+starred: true
+tags:
+  - exploit
+  - linux
+---
 
 Por isso linguagens modernas vêm adotando modelos mais seguros de memória, enquanto sistemas críticos continuam exigindo auditorias profundas em código de baixo nível.
 
