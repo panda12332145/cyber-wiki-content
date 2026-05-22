@@ -311,7 +311,27 @@ Vídeo:
 GitHub não suporta embed de PDF via iframe.
 
 PDF:
-[https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf](https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf)
+[https://owasp.org/www-chapter-pune/meetups/2019/August/Buffer_overflow_by_Renuka_Sharma.pdf](https://owasp.org/www-chapter-pune/meetups/2019/August/Buffer_overflow_by_Renuka_Sharma.pdf)
+
+
+<div align="center">
+
+<iframe
+    src="https://owasp.org/www-chapter-pune/meetups/2019/August/Buffer_overflow_by_Renuka_Sharma.pdf"
+    width="90%"
+    height="700"
+    style="
+        border:2px solid #00ffcc;
+        border-radius:20px;
+        background:#0d1117;
+        box-shadow:
+            0 0 10px #00ffcc,
+            0 0 30px rgba(0,255,204,0.4);
+    ">
+</iframe>
+
+</div>
+
 
 ---
 
