@@ -633,6 +633,58 @@ Dependendo do contexto, pode resultar em:
 
 ---
 
+# Links e Referências — Buffer Overflow
+
+## Artigos
+
+### Smashing The Stack For Fun And Profit
+```text
+https://phrack.org/issues/49/14
+```
+
+### Buffer Overflow Attack Explained
+
+https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
+
+
+### CWE-120 — Classic Buffer Overflow
+
+https://cwe.mitre.org/data/definitions/120.html
+
+
+---
+
+## Vídeo
+
+### LiveOverflow — Buffer Overflow Tutorial
+
+https://www.youtube.com/watch?v=1S0aBV-Waeo
+
+[Mais um video](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+
+---
+
+## Imagem
+
+### Stack Buffer Overflow Diagram
+
+https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg
+
+[iamgem](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg)
+
+https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg
+
+
+---
+
+## PDF
+
+### Intel Buffer Overflow Exploitation Paper
+
+https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf
+
+
+
 ## Ferramentas
 
 * GDB
