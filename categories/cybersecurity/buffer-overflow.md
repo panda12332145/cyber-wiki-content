@@ -637,56 +637,418 @@ Dependendo do contexto, pode resultar em:
 
 ---
 
-# Links e Referências — Buffer Overflow
+# Exemplos de Mídia em Markdown + HTML Embedded
 
-## Artigos
+---
 
-### Smashing The Stack For Fun And Profit
-```text
-https://phrack.org/issues/49/14
+# Imagens
+
+## 1. Imagem Básica em Markdown
+
+```md
+![Buffer Overflow](https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg)
 ```
 
-### Buffer Overflow Attack Explained
+Resultado:
 
-https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
-
-
-### CWE-120 — Classic Buffer Overflow
-
-https://cwe.mitre.org/data/definitions/120.html
-
+![Buffer Overflow](https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg)
 
 ---
 
-## Vídeo
+## 2. Imagem com Texto Alternativo
 
-### LiveOverflow — Buffer Overflow Tutorial
+```md
+![Stack Overflow Diagram](https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg)
+```
 
+---
+
+## 3. Imagem Clicável
+
+```md
+[![Imagem](https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg)](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)
+```
+
+Resultado:
+
+[![Imagem](https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg)](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)
+
+---
+
+## 4. Imagem HTML
+
+```html
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg">
+```
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg">
+
+---
+
+## 5. Imagem HTML com Width
+
+```html
+<img 
+    src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+    width="400">
+```
+
+<img 
+    src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+    width="400">
+
+---
+
+## 6. Imagem HTML com Height
+
+```html
+<img 
+    src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+    height="200">
+```
+
+---
+
+## 7. Imagem Centralizada
+
+```html
+<p align="center">
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+        width="500">
+</p>
+```
+
+<p align="center">
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+        width="500">
+</p>
+
+---
+
+## 8. Imagem com Border Radius
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="500"
+    style="border-radius:20px;">
+```
+
+---
+
+## 9. Imagem com CSS Inline
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="500"
+    style="
+        border-radius:20px;
+        border:3px solid #00ffcc;
+        box-shadow:0 0 20px #00ffcc;
+    ">
+```
+
+---
+
+## 10. Imagem Dentro de Link
+
+```html
+<a href="https://owasp.org/www-community/vulnerabilities/Buffer_Overflow">
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+        width="400">
+</a>
+```
+
+---
+
+## 11. Imagem com Legenda
+
+```html
+<figure>
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+        width="500">
+        
+    <figcaption>
+        Stack Buffer Overflow
+    </figcaption>
+</figure>
+```
+
+---
+
+## 12. Imagem Responsiva
+
+```html
+<img 
+    src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+    style="max-width:100%;">
+```
+
+---
+
+## 13. Várias Imagens Lado a Lado
+
+```html
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg" width="250">
+
+<img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg" width="250">
+```
+
+---
+
+# Vídeos
+
+## 1. Link Simples
+
+```md
 https://www.youtube.com/watch?v=1S0aBV-Waeo
-
-[Mais um video](https://www.youtube.com/watch?v=1S0aBV-Waeo)
-
----
-
-## Imagem
-
-### Stack Buffer Overflow Diagram
-
-https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg
-
-[iamgem](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg)
-
-https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg
-
+```
 
 ---
 
-## PDF
+## 2. Link Nomeado
 
-### Intel Buffer Overflow Exploitation Paper
+```md
+[LiveOverflow Buffer Overflow](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+```
 
+[LiveOverflow Buffer Overflow](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+
+---
+
+## 3. Thumbnail Clicável
+
+```md
+[![Video](https://img.youtube.com/vi/1S0aBV-Waeo/0.jpg)](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+```
+
+Resultado:
+
+[![Video](https://img.youtube.com/vi/1S0aBV-Waeo/0.jpg)](https://www.youtube.com/watch?v=1S0aBV-Waeo)
+
+---
+
+## 4. Iframe YouTube
+
+```html
+<iframe 
+    width="560" 
+    height="315"
+    src="https://www.youtube.com/embed/1S0aBV-Waeo"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+```
+
+---
+
+## 5. Vídeo HTML5
+
+```html
+<video width="600" controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+```
+
+---
+
+## 6. Vídeo Autoplay
+
+```html
+<video width="600" autoplay muted loop>
+    <source src="video.mp4" type="video/mp4">
+</video>
+```
+
+---
+
+## 7. Vídeo com Poster
+
+```html
+<video 
+    width="600"
+    controls
+    poster="https://img.youtube.com/vi/1S0aBV-Waeo/0.jpg">
+
+    <source src="video.mp4" type="video/mp4">
+</video>
+```
+
+---
+
+## 8. Vídeo Centralizado
+
+```html
+<p align="center">
+    <iframe 
+        width="700"
+        height="400"
+        src="https://www.youtube.com/embed/1S0aBV-Waeo">
+    </iframe>
+</p>
+```
+
+---
+
+# PDFs
+
+## 1. Link Simples
+
+```md
 https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf
+```
 
+---
+
+## 2. Link Nomeado
+
+```md
+[Intel Buffer Overflow Paper](https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf)
+```
+
+[Intel Buffer Overflow Paper](https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf)
+
+---
+
+## 3. PDF com HTML Embed
+
+```html
+<embed 
+    src="https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf"
+    width="800"
+    height="500">
+```
+
+---
+
+## 4. PDF com iframe
+
+```html
+<iframe
+    src="https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf"
+    width="800"
+    height="500">
+</iframe>
+```
+
+---
+
+## 5. PDF com object
+
+```html
+<object
+    data="https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf"
+    type="application/pdf"
+    width="800"
+    height="500">
+
+    <p>
+        Seu navegador não suporta PDF embed.
+    </p>
+
+</object>
+```
+
+---
+
+## 6. Botão de Download
+
+```html
+<a 
+    href="https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf"
+    download>
+
+    <button>
+        Download PDF
+    </button>
+
+</a>
+```
+
+---
+
+# Extras
+
+## Collapsible Content
+
+```html
+<details>
+
+<summary>Mostrar PDF</summary>
+
+<iframe
+    src="https://www.cs.cornell.edu/courses/cs513/2005fa/paper.alpeh1.stacksmashing.pdf"
+    width="800"
+    height="500">
+</iframe>
+
+</details>
+```
+
+---
+
+# Cybersecurity Wiki Style
+
+## Exemplo Completo
+
+```html
+<div style="
+    background:#0d1117;
+    padding:20px;
+    border-radius:20px;
+    border:1px solid #00ffcc;
+">
+
+<h1 style="color:#00ffcc;">
+Buffer Overflow
+</h1>
+
+<p style="color:#aaaaaa;">
+Classic memory corruption vulnerability.
+</p>
+
+<img
+    src="https://upload.wikimedia.org/wikipedia/commons/3/34/Stack_Overflow_2.svg"
+    width="500"
+    style="
+        border-radius:15px;
+        box-shadow:0 0 20px #00ffcc;
+    ">
+
+</div>
+```
+
+---
+
+# Compatibilidade
+
+| Recurso | Markdown | GitHub | HTML |
+|---|---|---|---|
+| Imagem | Sim | Sim | Sim |
+| Vídeo Embed | Não | Parcial | Sim |
+| PDF Embed | Não | Não | Sim |
+| CSS Inline | Não | Parcial | Sim |
+| iframe | Não | Não | Sim |
+| video tag | Não | Não | Sim |
+| object/embed | Não | Não | Sim |
+
+---
+
+# Termos Técnicos
+
+| Nome | Descrição |
+|---|---|
+| Markdown | Sintaxe simplificada |
+| Raw HTML | HTML puro dentro do MD |
+| Embedded HTML | HTML embutido |
+| Inline HTML | HTML na mesma linha |
+| Hybrid Markdown | Markdown + HTML |
+| GFM | GitHub Flavored Markdown |
 
 
 ## Ferramentas
