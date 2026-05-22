@@ -641,6 +641,201 @@ Dependendo do contexto, pode resultar em:
 
 ---
 
+# Exemplos de Mídia em Markdown + HTML Embedded
+
+---
+
+# Imagens
+
+## 1. Imagem Básica em Markdown
+
+```md
+![Buffer Overflow](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg)
+```
+
+Resultado:
+
+![Buffer Overflow](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg)
+
+---
+
+## 2. Imagem com Texto Alternativo
+
+```md
+![Stack Overflow Attack](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg)
+```
+
+---
+
+## 3. Imagem Clicável
+
+```md
+[![Imagem](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg)](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)
+```
+
+Resultado:
+
+[![Imagem](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg)](https://owasp.org/www-community/vulnerabilities/Buffer_Overflow)
+
+---
+
+## 4. Imagem HTML
+
+```html
+<img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg">
+```
+
+<img src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg">
+
+---
+
+## 5. Imagem HTML com Width
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="400">
+```
+
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="400">
+
+---
+
+## 6. Imagem HTML com Height
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    height="200">
+```
+
+---
+
+## 7. Imagem Centralizada
+
+```html
+<p align="center">
+    <img 
+        src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+        width="500">
+</p>
+```
+
+<p align="center">
+    <img 
+        src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+        width="500">
+</p>
+
+---
+
+## 8. Imagem com Border Radius
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="500"
+    style="border-radius:20px;">
+```
+
+---
+
+## 9. Imagem com CSS Inline
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="500"
+    style="
+        border-radius:20px;
+        border:3px solid #00ffcc;
+        box-shadow:0 0 20px #00ffcc;
+    ">
+```
+
+---
+
+## 10. Imagem Dentro de Link
+
+```html
+<a href="https://owasp.org/www-community/vulnerabilities/Buffer_Overflow">
+    <img 
+        src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+        width="400">
+</a>
+```
+
+---
+
+## 11. Imagem com Legenda
+
+```html
+<figure>
+    <img 
+        src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+        width="500">
+        
+    <figcaption>
+        Stack Buffer Overflow Attack
+    </figcaption>
+</figure>
+```
+
+---
+
+## 12. Imagem Responsiva
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    style="max-width:100%;">
+```
+
+---
+
+## 13. Várias Imagens Lado a Lado
+
+```html
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="250">
+
+<img 
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="250">
+```
+
+---
+
+## 14. Imagem Neon Cyberpunk
+
+```html
+<div style="
+    background:#0d1117;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+">
+
+<img
+    src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67b43310ef6bef8402765c28_60618356ed0c90a97885a568_Stack%2520Overflow%2520Attack.jpeg"
+    width="600"
+    style="
+        border-radius:20px;
+        border:2px solid #00ffcc;
+        box-shadow:
+            0 0 10px #00ffcc,
+            0 0 30px #00ffcc,
+            0 0 60px #00ffcc;
+    ">
+
+</div>
+```
+
+```
+
 # Imagens
 
 ## 1. Imagem Básica em Markdown
