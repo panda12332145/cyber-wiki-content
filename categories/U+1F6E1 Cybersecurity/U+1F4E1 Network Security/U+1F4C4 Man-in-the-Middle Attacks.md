@@ -868,27 +868,10 @@ Vídeo:
 # PDF
 
 PDFs:
+
 [https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf)
 
 https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf
-
-<div align="center">
-
-<iframe
-    src="https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf"
-    width="90%"
-    height="700"
-    style="
-        border:2px solid #00ffcc;
-        border-radius:20px;
-        background:#0d1117;
-        box-shadow:
-            0 0 10px #00ffcc,
-            0 0 30px rgba(0,255,204,0.4);
-    ">
-</iframe>
-
-</div>
 
 ---
 
