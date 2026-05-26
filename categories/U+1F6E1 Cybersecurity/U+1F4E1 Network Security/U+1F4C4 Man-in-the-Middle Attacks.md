@@ -600,7 +600,7 @@ openssl s_client -connect example.com:443
 
 <p align="center">
     <img
-        src="https://www.wireshark.org/assets/img/screenshots/ws-main.png"
+        src="https://www.wireshark.org/docs/wsug_html_chunked/images/ws-main.png"
         width="900">
 </p>
 
@@ -860,22 +860,20 @@ ip link
 
 # Vídeo
 
-GitHub não suporta embed de YouTube.
-
 Vídeo:
-[https://www.youtube.com/watch?v=7vhvnaWUZjE](https://www.youtube.com/watch?v=7vhvnaWUZjE)
+[https://www.youtube.com/watch?v=-rSqbgI7oZM](https://www.youtube.com/watch?v=-rSqbgI7oZM)
 
 ---
 
 # PDF
 
 PDF:
-[https://owasp.org/www-pdf-archive/OWASP_Testing_Guide_v4.pdf](https://owasp.org/www-pdf-archive/OWASP_Testing_Guide_v4.pdf)
+[https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf)
 
 <div align="center">
 
 <iframe
-    src="https://owasp.org/www-pdf-archive/OWASP_Testing_Guide_v4.pdf"
+    src="https://owasp.org/www-project-web-security-testing-guide/assets/archive/OWASP_Testing_Guide_v4.pdf"
     width="90%"
     height="700"
     style="
