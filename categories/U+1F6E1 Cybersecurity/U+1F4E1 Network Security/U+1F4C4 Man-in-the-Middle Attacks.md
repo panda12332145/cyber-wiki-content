@@ -867,7 +867,7 @@ Vídeo:
 
 # PDF
 
-PDFs:
+PDF:
 
 [https://owasp.org/www-project-web-security-testing-guide/assets/archive/OSP_Testing_Guide_v4.pdf](https://owasp.org/www-project-web-security-testing-guide/assets/archive/OSP_Testing_Guide_v4.pdf)
 
